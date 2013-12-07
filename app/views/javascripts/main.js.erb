@@ -23,8 +23,8 @@ $(document).ready(function() {
 
 function load() {
 
-  var current_lat = 37.804855;
-  var current_long = -122.271304;
+  var current_lat = 44.447;
+  var current_long = -73.2;
  
   var locationMarker;
   // Check to see if there is already a location.
@@ -49,14 +49,14 @@ function load() {
       mapTypes: [google.maps.MapTypeId.ROADMAP, google.maps.MapTypeId.SATELLITE]
     },
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    maxZoom: 19,
-    minZoom: 16,
+    maxZoom: 16,
+    minZoom: 10,
     panControl: false,
     rotateControl: false,
     scaleControl: false,
     scrollwheel: true,
     streetViewControl: true,
-    zoom: 17,
+    zoom: 12,
     zoomControl: true
   };
 
