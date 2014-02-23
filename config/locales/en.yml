@@ -22,24 +22,24 @@ en:
     required: "(required)"
   defaults:
     address: "address"
-    address_1: "1 Frank H. Ogawa Plaza, Oakland, CA"
+    address_1: "1 College Street, Burlington, VT"
     address_2: ""
     city: "Oakland"
-    city_state: "Oakland, California"
+    city_state: "Burlington, VT"
     neighborhood: "Downtown"
-    sms_number: "510-555-1212"
+    sms_number: "802-555-1212"
     state: "CA"
     thing: "drain"
     this_thing: "This %{thing}"
     tagline: "Volunteer to keep a drain clear and report any problems!"
     tos: "By signing up you agree to the %{tos}."
-    voice_number: "510-555-1212"
+    voice_number: "802-555-1212"
     zip: "94612"
   errors:
     password: "You need to sign in or sign up before continuing."
     not_found: "Could not find %{thing}."
   labels:
-    address: "Enter an Oakland, CA address"
+    address: "Enter an Burlington, VT address"
     address_1: "Address Line 1"
     address_2: "Address Line 2"
     city: "City"
@@ -84,7 +84,7 @@ en:
     tos: "Terms of Service & Volunteer Guidelines"
   sponsors:
     cfa: "Code for America"
-    city: "City of Oakland"
+    city: "City of Burlington"
     mayor:
       name: "Jean Quan"
       title: "Mayor"
